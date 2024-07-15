@@ -34,16 +34,13 @@ export function Course() {
 		return () => clearInterval(interval)
 	}, [])
 	return (
-		<div className='h-fit md:h-screen bg-[url(/pokemonbg/placefird.gif)] flex items-center justify-between bg-no-repeat bg-cover mt-20 md:mt-0'>
+		<div className='h-fit md:h-screen bg-[url(/pokemonbg/placefird.gif)] flex items-center justify-between bg-no-repeat bg-cover'>
 			<div className='w-full flex justify-center md:justify-between'>
 				<div className='md:p-20 md:pr-40 mr-0 flex flex-col gap-20 text-center md:text-start w-fit'>
-					<div className='text-4xl md:text-5xl text-[#FFF]'>
+					<div className='text-4xl md:text-7xl text-[#FFF]'>
 						<motion.div animate={controls}>
 							<h2 className='xl:text-center'>
-								<span className='text-[#D2FF1D] text-3xl md:text-7xl '>
-									Guides
-								</span>{' '}
-								<br></br>
+								<span className='text-[#D2FF1D]'>Guides</span> <br></br>
 								on the platform
 							</h2>
 						</motion.div>
