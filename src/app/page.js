@@ -1,4 +1,4 @@
-import Abilities from '../../components/Abilities/Abilities'
+import AbilitiesPage from '../../components/Abilities/Abilities'
 import Footer from '../../components/Footer/Footer'
 import Course from '../../pages/Course/Course'
 import HeaderPage from '../../pages/Header/Header'
@@ -8,7 +8,7 @@ export default function Home() {
 	return (
 		<div className='bg-[#0A062A] overflow-x-hidden'>
 			<HeaderPage />
-			<Abilities />
+			<AbilitiesPage />
 			<Recommendations />
 			<Course />
 
