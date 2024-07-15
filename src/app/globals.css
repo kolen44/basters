@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--foreground-rgb: 0, 0, 0;
+	--background-start-rgb: 214, 219, 220;
+	--background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--foreground-rgb: 255, 255, 255;
+		--background-start-rgb: 0, 0, 0;
+		--background-end-rgb: 0, 0, 0;
+	}
+}
+
+@layer utilities {
+	.text-balance {
+		text-wrap: balance;
+	}
+}
+
+@font-face {
+	font-family: 'TTTravels';
+	src: url('/TTTravels.woff2');
+}
+
+body {
+	width: 100vw;
+	overflow-x: hidden;
+}
+
+* {
+	font-family: 'TTTravels';
+}
+
+body::-webkit-scrollbar {
+	width: 12px; /* ширина scrollbar */
+}
+body::-webkit-scrollbar-track {
+	background: #0a062a; /* цвет дорожки */
+}
+body::-webkit-scrollbar-thumb {
+	background-color: #d2ff1d; /* цвет плашки */
+	border-radius: 20px; /* закругления плашки */
+	border: 3px solid #d2ff1d; /* padding вокруг плашки */
+}
+
+.fc-daygrid-event {
+	white-space: wrap !important;
+}
+
+#fc-dom-86 {
+	visibility: hidden;
+	position: relative;
+}
+
+#fc-dom-86:after {
+	visibility: visible;
+	position: absolute;
+	width: 350px;
+	text-align: center;
+	top: 0;
+	left: 0;
+	content: 'Heldent AI';
+	text-align: start;
+}
