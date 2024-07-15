@@ -15,7 +15,7 @@ export default function AbilitiesPage() {
 	return (
 		<div className='bg-[#0A062A]'>
 			<div className='bg-[url(/pokemonbg/placesecond.gif)] bg-no-repeat bg-cover h-fit opacity-90 min-h-screen'>
-				<div className='absolute'>
+				<div className='absolute hidden md:block'>
 					<motion.div
 						animate={{ y: isUp ? -20 : 20 }}
 						transition={{ duration: 1, loop: Infinity }}
@@ -36,7 +36,7 @@ export default function AbilitiesPage() {
 						<span className='text-[#D2FF1D]'>!</span>
 					</h2>
 				</div>
-				<div className='flex items-center md:items-start flex-col md:flex-row md:justify-between md:px-28 pb-10  mt-52 relative gap-5'>
+				<div className='flex items-center md:items-start flex-col md:flex-row md:justify-between md:px-24 pb-10  mt-24 md:mt-52 relative gap-5'>
 					<Image src='/animes/Gon.png' width={300} height={300} alt='Gon' />
 					<Image
 						src='/animes/Kaneki.png'

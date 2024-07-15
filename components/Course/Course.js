@@ -40,7 +40,7 @@ export function Course() {
 					<div className='text-4xl md:text-5xl text-[#FFF]'>
 						<motion.div animate={controls}>
 							<h2 className='xl:text-center'>
-								<span className='text-[#D2FF1D] text-5xl md:text-7xl xl:text-start'>
+								<span className='text-[#D2FF1D] text-3xl md:text-7xl '>
 									Guides
 								</span>{' '}
 								<br></br>
