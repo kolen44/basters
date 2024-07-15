@@ -45,7 +45,7 @@ export default function Header() {
 					</div>
 					<div className='flex items-center justify-center max-w-2xl  md:justify-between '>
 						<Link href={'/account'}>
-							<GreenButton text={'START🚀'} />
+							<GreenButton text={'START🚀'} isHeader={true} />
 						</Link>
 
 						<div className=' h-fit w-fit py-1 md:py-3 px-1 md:px-10 ml-2 border-2 border-black box-border'>
